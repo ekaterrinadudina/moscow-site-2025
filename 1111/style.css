@@ -1,0 +1,735 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*Убрать прокрутку*/
+body::-webkit-scrollbar {
+    display: none; 
+    width: 0;
+    background: transparent;
+}
+body::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    background: transparent;
+}
+
+
+
+/*Главная страница Москва - это*/
+.moscow-this-is
+{
+    height: auto
+}
+.conteiner-moscow
+{
+    display:flex;
+    justify-content:start;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.picture-moscow
+{
+    margin-left: 70px;
+    margin-right: 30px;
+}
+#picture-moscow
+{
+    width: 470px;
+    border: 5px solid rgb(172, 41, 41); 
+    padding: 5px; 
+}
+.zagolovok
+{
+    display:flex;
+    justify-content: start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.zagolovok-text
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
+.defis
+{
+    color: rgb(172, 41, 41);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+.opisanie
+{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:justify;
+    margin-top:10px;
+}
+
+.text-this-is
+{
+    margin-right: 60px ;
+}
+.classy
+{
+    margin-bottom: 0px;
+    margin-top:20px;
+}
+#opisanie1
+{
+    margin-top: 1px;
+}
+.red
+{
+    background-color: rgb(172, 41, 41);
+    height: 200px;
+}
+
+
+
+
+
+/*Маршруты*/
+.marshrut
+{
+    height: auto
+}
+.marshrut-picture
+{
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+}
+.marshrut-opisanie
+{
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+.marshrut-zagolovok
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.marshrut-conteiner
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.marshrut img
+{
+    width: 330px;
+    height: 220px;
+    border: 5px solid rgb(172, 41, 41); 
+    padding: 5px;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+.marshrut-opisanie
+{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+}
+.marshrut h2
+{
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:justify;
+    font-weight: normal;
+}
+.marshrut-opisanie-mini
+{
+    font-size: 18px;
+    max-width:350px ;
+    font-family:'Courier New', Courier, monospace;
+    text-align:justify;
+    margin-bottom: 50px;
+}
+.image-overlay 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 363px;
+    height: 242px;
+    background-color: rgba(172, 41, 41, 0); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+.hover-text 
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    transition: transform 0.4s ease;
+}
+.marshrut-link:hover .image-overlay 
+{
+    opacity: 1;
+}
+.marshrut-link:hover .hover-text 
+{
+    transform: translateY(0);
+}
+.marshrut-block1:hover .image-overlay 
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+.marshrut-block1:hover .hover-text 
+{
+    transform: scale(1);
+    opacity: 1; 
+}
+.marshrut-block1:hover .marshrut-picture img 
+{
+    transform: scale(1.1);
+}
+.marshrut-block2:hover .image-overlay 
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);; 
+}
+.marshrut-block2:hover .hover-text 
+{
+    transform: scale(1);
+    opacity: 1; 
+}
+.marshrut-block2:hover .marshrut-picture img 
+{
+    transform: scale(1.1);
+}
+.marshrut-block3:hover .image-overlay 
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);; 
+}
+.marshrut-block3:hover .hover-text 
+{
+    transform: scale(1);
+    opacity: 1; 
+}
+.marshrut-block3:hover .marshrut-picture img 
+{
+    transform: scale(1.1);
+}
+.marshrut-block4:hover .image-overlay 
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+.marshrut-block4:hover .hover-text 
+{
+    transform: scale(1);
+    opacity: 1;
+}
+.marshrut-block4:hover .marshrut-picture img 
+{
+    transform: scale(1.1);
+}
+.marshrut-block5:hover .image-overlay 
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+.marshrut-block5:hover .hover-text 
+{
+    transform: scale(1);
+    opacity: 1; 
+}
+.marshrut-block5:hover .marshrut-picture img 
+{
+    transform: scale(1.1);
+}
+.marshrut-block6:hover .image-overlay 
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+.marshrut-block6:hover .hover-text 
+{
+    transform: scale(1);
+    opacity: 1;
+}
+.marshrut-block6:hover .marshrut-picture img 
+{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*маршруты подробно*/
+.marsh_section
+{
+    padding-bottom: 50px;
+}
+.zagolovok_marsh
+{
+    display:flex;
+    justify-content: start;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.opisanie_marsh
+{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:justify;
+    margin-top:0px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#m
+{
+    font-size: 35px;
+}
+.simple-gallery-container 
+{    
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+/* Элемент галереи */
+/* Фотография */
+.gallery-photo 
+{
+    height: 200px;
+    width: 280px;
+    border-radius: 12px;
+}
+
+
+
+
+
+/*чек лист*/
+.zagolovok_spisok
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;    
+}
+.spisok
+{
+    background-color: black;
+    color: white;
+    text-align: center;      
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.spisok ul 
+{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.spisok li 
+{
+    position: relative;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+.spisok li::before 
+{
+    content: "■";          
+    position: relative;
+    display: inline-block;
+    left: auto;
+    top: auto;
+    font-size: 18px;
+    color:rgb(172, 41, 41);     
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.spisok_name 
+{   
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*Отели*/
+.hotel
+{
+    height: auto;
+    background-color:black;
+}
+.hotel-picture
+{
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+}
+.hotel-opisanie
+{
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    color:white;
+}
+.hotel-zagolovok
+{
+    display:flex;
+    justify-content: center;
+    padding-top: 80px;
+    background-color: black;
+    margin-bottom: 0px;
+    color:white;
+}
+.hotel-conteiner
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+.hotel img
+{
+    width: 330px;
+    height: 500px;
+    border: 2px solid white;
+    padding: 5px;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
+.hotel-opisanie
+{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    color: white;
+}
+
+.hotel-overlay 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 363px;
+    height: 520px;
+    background-color: rgba(172, 41, 41, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+.hotel-hover-text 
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    transition: transform 0.4s ease;
+}
+.hotel-link:hover .hotel-overlay 
+{
+    opacity: 1;
+}
+.hotel-link:hover .hotel-hover-text 
+{
+    transform: translateY(0);
+}
+.hotel-block1:hover .hotel-overlay 
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+.hotel-block1:hover .hotel-hover-text 
+{
+    transform: scale(1);
+    opacity: 1;
+}
+.hotel-block1:hover .hotel-picture img 
+{
+    transform: scale(1.1);
+}
+.hotel-block2:hover .hotel-overlay 
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+.hotel-block2:hover .hotel-hover-text 
+{
+    transform: scale(1);
+    opacity: 1;
+}
+.hotel-block2:hover .hotel-picture img 
+{
+    transform: scale(1.1);
+}
+.hotel-block3:hover .hotel-overlay 
+{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.7);
+}
+.hotel-block3:hover .hotel-hover-text 
+{
+    transform: scale(1);
+    opacity: 1; 
+}
+.hotel-block3:hover .hotel-picture img 
+{
+    transform: scale(1.1);
+}
+.hotel-caption 
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+    transition: all 0.4s ease;
+}
+#caption-text1
+{
+ bottom: 200px;
+}
+#caption-text2
+{
+ bottom: 200px;
+}
+#caption-text3
+{
+ bottom: 170px;
+}
+.caption-text 
+{
+    color: white;
+    background-color:rgba(0,0,0,0.7);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    padding: 8px 15px;
+    border-radius: 3px;
+    display: inline-block;
+    max-width: 90%;
+    text-transform: uppercase;
+}
+.hotel-block1:hover .hotel-caption 
+{
+    opacity: 0;
+}
+.hotel-block1:hover .hotel-overlay 
+{
+    z-index: 4;
+}
+.hotel-block2:hover .hotel-caption 
+{
+    opacity: 0;
+}
+.hotel-block2:hover .hotel-overlay 
+{
+    z-index: 4;
+}
+.hotel-block3:hover .hotel-caption 
+{
+    opacity: 0;
+}
+.hotel-block3:hover .hotel-overlay 
+{
+    z-index: 4;
+}
+
+
+
+
+
+
+/*Словарь*/
+.slovar_zagolovok
+{
+    display:flex;
+    justify-content:center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: rgb(172, 41, 41);
+}
+.slovar_opisanie
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align:justify;
+    padding: 0 60px;
+}
+#sl_defis
+{
+    color: black;
+}
+#sl_opisanie
+{
+    background-color:rgb(172, 41, 41) ;
+    padding-bottom: 50px;
+    font-size: 30px;
+    
+}
+
+.section_slovar
+{
+    padding-bottom: 50px;
+}
+.zagolovok_slovar
+{
+    display:flex;
+    justify-content: start;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+.opisanie_slovar
+{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:justify;
+    margin-top:0px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#slov
+{
+    font-size: 32px;
+}
+
+
+
+
+
+
+/*Что взять  собой*/
+.section_s_soboy
+{
+    margin: 0 60px;
+}
+.s_soboy_zagolovok
+{
+    display:flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+.s_soboy-opisanie
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align:center;
+}
+.s_soboy_spiski
+{
+    margin-top: 30px;
+    display:flex;
+    justify-content:space-around;
+}
+
+
+
+.s_soboy_spisok1, .s_soboy_spisok2, .s_soboy_spisok3
+{      
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    padding: 20px;
+}
+.s_soboy_spisok1 ul, .s_soboy_spisok2 ul, .s_soboy_spisok3 ul 
+{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.s_soboy_spisok1 li, .s_soboy_spisok2 li, .s_soboy_spisok3 li 
+{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.s_soboy_spisok1 li::before, .s_soboy_spisok2 li::before, .s_soboy_spisok3 li::before 
+{
+    content: "■";            
+    font-size: 18px;
+    color:rgb(172, 41, 41);     
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+
+
+
+/*Карта*/
+.map
+{
+    width: auto;
+}
+
+
+/* Что-то*/
+#put
+{
+    color: white;
+}
+.nashput
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-top: 75px;
+    margin-bottom: 0px;
+}
+
+#opisanie_poezd
+{
+    text-align: justify;
+    margin-top: 0;
+}
+
+iframe
+{
+    margin-bottom: 0;
+}
+.nashput_opisanie
+{
+    display:flex;
+    justify-content: center;
+
+    padding-top: 70px;
+    margin-bottom: 0px;
+}
+
+
+
+
+

@@ -1,0 +1,178 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    background-color: #2c5545;
+}
+
+
+.simple-gallery 
+{    
+    background-color:#2c5545
+}
+/* Контейнер галереи */
+.simple-gallery-container 
+{    
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+/* Элемент галереи */
+.gallery-item 
+{    
+    background-color: #2c5545;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+/* Фотография */
+.gallery-photo 
+{
+    height: 250px;
+    width: 370px;
+    border-radius:4%;   
+}
+.simple-gallery2 
+{    
+    background-color:#2c5545
+}
+/* Контейнер галереи */
+.simple-gallery-container2 
+{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;   
+    margin-top: 40px;
+}
+/* Элемент галереи */
+.gallery-item2 
+{    
+    background-color: #2c5545;   
+}
+/* Фотография */
+.gallery-photo2 
+{
+    height: 250px;
+    width: 370px;
+    border-radius: 12px;
+    border-radius:4%;   
+}
+.zag
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+.zagolovokdefis
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:#2c5545;
+    align-items: center;
+    align-self: center;
+}
+.zagolovok
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:#2c5545;
+    flex-wrap: wrap;
+    width: 400px;
+    align-items: center;
+    align-self: center;
+}
+.zagolovok-text
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    color: #f7c266;
+}
+.defis
+{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+/**/
+.kaif-opisanie
+{
+    padding-top:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color:white;
+    text-indent: 40px;
+    text-align: justify;
+    margin: 0 30px;
+}
+p
+{
+    padding: 10px 0;
+}
+.zagolovok11
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:#2c5545;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.zagolovok-text11
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    color: #f7c266;
+}
+
+#glaaav
+{
+    color: #f7c266;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.simple-gallery-container11 
+{    
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: -70px;
+}
+.gallery-item11 
+{    
+    background-color: #2c5545; 
+}
+/* Фотография */
+.gallery-photo11 
+{
+    height: 180px;
+    width: 250px;
+    border-radius: 12px; 
+}
+.goodbed
+{
+    padding-top:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color:white;
+    background-color: #2c5545;
+    text-indent: 40px;
+    text-align: justify;
+    margin: 0 30px;
+}
+.goodbed p
+{
+    margin-top:-40px;
+    margin-bottom: 50px;
+}
