@@ -1,0 +1,115 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    background-color: #0a316c;
+}
+
+
+.zagolovok
+{
+    display:flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #0a316c;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.zagolovok-text
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    color: white;
+}
+.defis
+{
+    color: rgb(172, 41, 41);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+.simple-gallery 
+{
+    background-color:  #0a316c;/*#f9f9f9;*/
+}
+/* Контейнер галереи */
+.simple-gallery-container 
+{    
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+/* Элемент галереи */
+.gallery-item 
+{    
+    background-color: #0a316c;
+}
+/* Фотография */
+.gallery-photo 
+{
+    height: 180px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+
+.more-opisanie
+{
+    padding-top:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color:white;
+    background-color: #0a316c;
+    text-indent: 40px;
+    text-align: justify;
+    margin: 0 30px;
+}
+p
+{
+    padding: 10px 0;
+}
+#glaaav
+{
+    color: rgb(172, 41, 41);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.simple-gallery-container1 
+{    
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: -70px;
+}
+.goodbed
+{
+    padding-top:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color:white;
+    background-color: #0a316c;
+    text-indent: 40px;
+    text-align: justify;
+    margin: 0 30px;
+}
+.goodbed p
+{
+    margin-top:-40px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
